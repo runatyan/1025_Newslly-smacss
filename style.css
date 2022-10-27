@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/* ベース
+---------------------------------*/
+body {
+    color: #888888;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.71;
+    letter-spacing: 0;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* レイアウト
+-------------------------------------*/
+.l-inner {
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.l-footer {
+    padding: 100px 0 40px 0;
+}
+
+.l-p3 {
+    padding: 35px;
+}
+
+.l-py6 {
+    padding: 60px 0;
+}
+
+.l-mt3 {
+    margin-top: 30px;
+}
+
+.l-mb4 {
+    margin-bottom: 40px;
+}
+
+.l-mb6 {
+    margin-bottom: 60px;
+}
+
+.l-mauto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-col2 {
+    width: 47.5%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+.l-bg-gray {
+    background-color: #F6F6F6;
+}
+
+.l-bg-white {
+    background-color: #fff;
+}
+
+.l-bg-black {
+    background-color: #202124;
+}
+
+/*h2*/
+.title-name {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 10px solid #FA6980;
+    color: #000;
+}
+
+/*unit*/
+.unit-catch {
+    font-size: 12px;
+    font-style: italic;
+    color: #FA6980;
+    margin-bottom: 10px;
+}
+
+.unit-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+
+.unit-text {
+    margin-bottom: 25px;
+}
+
+.unit-boreder {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/*time*/
+.time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.time-text {
+    padding-left: 10px;
+}
+
+/*btn*/
+.btn {
+    display: block;
+    margin-left: auto;
+    background-color: #FA6980;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    width: 160px;
+    padding: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-black {
+    background-color: #202124;
+}
